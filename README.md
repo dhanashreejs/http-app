@@ -1,35 +1,6 @@
 # http-app
 
 Sample project to demonstrate MEAN technology. This is Angular HttpClientModule based project.
-Project Structure
-http-app
- |_src
-	|_app
-	  |_book
-			|_book.component.ts			 |
-			|_book.component.css         |-on HTTP.GET /books
-			|_book.component.html        |
-		|_book-detail                    
-			|_book-detail.component.ts	 |
-			|_book-detail.component.css  |-on HTTP.GET /book-detail/:id
-			|_book-detail.component.html |
-		|_book-edit						 
-			|_book-edit.component.ts	 |	
-			|_book-edit.component.css    |-on HTTP.PUT /book-detail/:id
-			|_book-edit.component.html   |
-		|_book-add
-			|_book-add.component.ts		 |	
-			|_book-add.component.css     |-on HTTP.POST   /book-add/
-			|_book-add.component.html    |-on HTTP.DELETE /book-detail/:id
-		|_app.module.ts
-		|_app-routing.module.ts
-		|_app.component.ts
-		|_app.component.css
-		|_app.component.html
-		|_book.ts
-		|_http.service.ts
-				
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
