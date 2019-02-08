@@ -7,15 +7,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-After cloning this project need to work on below command
+### Installing
+
 ```
+
+c:>node --version ####Check Node version
+c:>npm --version  ####Check NPM version
+c:>mongo --version ####Check mongo version
+c:> npm install -g nodemon
+c:> npm install -g @angular/cli 
+
+After cloning this project need to work on below command
 cd ../http-add/
-
-http-add>node --version
-
-http-add>npm --version
-
-http-add>mongo --version
 
 http-add> npm install express body-parser mongoose --save
 
@@ -117,13 +120,6 @@ unitPrice:350.00,
   5. db.books.find({bookId:1010},{_id:0});
 ```
 
-### Installing
-
-```
-npm install -g nodemon
-npm install -g @angular/cli
-
-```
 
 ## Deployment
 To execute the code : npm run build
