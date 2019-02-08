@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 After cloning this project need to work on below command
-
+```
 cd ../http-add/
 
 http-add>node --version
@@ -115,15 +115,14 @@ unitPrice:350.00,
   4. db.books.find();
 
   5. db.books.find({bookId:1010},{_id:0});
-	
+```
 
 ### Installing
-npm install -g nodemon
-npm install -g @angular/cli
-etc...
 
 ```
-Give an example
+npm install -g nodemon
+npm install -g @angular/cli
+
 ```
 
 ## Deployment
