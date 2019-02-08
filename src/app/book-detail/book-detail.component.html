@@ -1,0 +1,8 @@
+<div *ngIf="book">
+    <br/><label>bookId       {{book.bookId      }}   </label>
+    <br/><label>bookName     {{book.bookName    }}  </label>
+    <br/><label>authorName   {{book.authorName  }}   </label>
+    <br/><label>price        {{book.price       }}             </label>
+    <br/><label>availability {{book.availability}} </label>
+    <button routerLink="/book-edit/{{ book.bookId }}">Edit</button>
+</div>

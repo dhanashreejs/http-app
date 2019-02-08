@@ -1,0 +1,24 @@
+<button (click)="add()">
+  Add
+</button>
+<div *ngFor="let book of books">
+  <a routerLink="/book-detail/{{book.bookId}}">
+    <div class="bookdiv">
+        <div>
+          <div>
+            <h2 class="bookheader">{{ book.bookName }}</h2>
+          </div>
+          <div>
+            {{ book.authorName }}
+          </div>
+          <div>
+            {{ book.price }}
+          </div>
+        </div>
+      </div>
+  </a>
+  <button (click)="delete(book.bookId)">
+    Delete
+  </button>
+</div>
+
